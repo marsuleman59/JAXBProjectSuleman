@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Customer xmlns:tns="http://www.example.org/Customer" xmlns:tns1="http://www.example.org/Address" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Customer Customer.xsd ">
+  <tns:customerID>tns:customerID</tns:customerID>
+  <tns:name>tns:name</tns:name>
+  <tns:dateOfBirth>tns:dateOfBirth</tns:dateOfBirth>
+  <tns:annualSalary>tns:annualSalary</tns:annualSalary>
+  <tns:address>
+    <tns1:Addline1>tns1:Addline1</tns1:Addline1>
+    <tns1:Addline2>tns1:Addline2</tns1:Addline2>
+    <tns1:City>tns1:City</tns1:City>
+    <tns1:State>tns1:State</tns1:State>
+    <tns1:Zip>tns1:Zip</tns1:Zip>
+  </tns:address>
+  <tns:paymentType>
+    <tns:cardNumber>tns:cardNumber</tns:cardNumber>
+    <tns:nameOnCard>tns:nameOnCard</tns:nameOnCard>
+    <tns:dateFrom>tns:dateFrom</tns:dateFrom>
+    <tns:dateType>tns:dateType</tns:dateType>
+    <tns:cardType>CREDIT</tns:cardType>
+  </tns:paymentType>
+</tns:Customer>
